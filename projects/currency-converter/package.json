@@ -1,5 +1,5 @@
 {
-  "name": "currency-converter",
+  "name": "jk-currency-converter",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^14.2.0",
@@ -7,5 +7,15 @@
   },
   "dependencies": {
     "tslib": "^2.3.0"
+  },
+  "description": "convert your currency in one go!",
+  "author": {
+    "name": "Jasprit Kaur",
+    "url": "https://jaspritk.github.io/"
+  },
+  "keywords": ["currency-conterter", "exchange-currency-rates"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaspritk/jk-currency-converter"
   }
 }

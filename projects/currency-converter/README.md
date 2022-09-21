@@ -1,24 +1,17 @@
 # CurrencyConverter
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
+* A simple package which uses API to enhance the functionality of converting currency with updated exchange rates.
+* With over 15 exchange rate data sources, the Exchangerates API is delivering exchanging rates data for more than 170 world currencies.
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
-## Code scaffolding
+# Installation
 
-Run `ng generate component component-name --project currency-converter` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project currency-converter`.
-> Note: Don't forget to add `--project currency-converter` or else it will be added to the default project in your `angular.json` file. 
+`npm i jk-currency-converter`
 
-## Build
+# How to use?
 
-Run `ng build currency-converter` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build currency-converter`, go to the dist folder `cd dist/currency-converter` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test currency-converter` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. In `app.module.ts`
+* `import { CurrencyConverterModule } from 'jk-currency-converter';`
+* `imports: [..., CurrencyConverterModule],`
+2. Now go to the component where you want to use library, then use `<jk-currency-converter></jk-currency-converter>`.
+3. You are ready to use currency converter!
